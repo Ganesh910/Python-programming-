@@ -1,0 +1,6 @@
+# cook your dish here
+# Number of test cases
+T = int(input())
+for _ in range(T):
+    X, Y = map(int, input().split())
+    print(X - Y)
